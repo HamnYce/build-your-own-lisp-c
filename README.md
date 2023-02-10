@@ -8,7 +8,7 @@
 ### Credits:
 Thank you <a href="https://github.com/orangeduck">OrangeDuck</a>
 for the <a href="https://github.com/orangeduck/mpc">parser</a> and
-creating <a href="https://github.com/orangeduck/BuildYourOwnLisp">this</a>.
+creating <a href="https://github.com/orangeduck/BuildYourOwnLisp">BuildYourOwnLisp</a>.
 
 
 
