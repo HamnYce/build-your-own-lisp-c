@@ -1,22 +1,31 @@
 # Lispi
 
 
-### building my own lisp while following:
+### Building my own lisp while following on:
+
 ## https://buildyourownlisp.com/
 
-#### syntax currently is mathematics in polish notation.
+### Credits:
+Thank you <a href="https://github.com/orangeduck">OrangeDuck</a>
+for the <a href="https://github.com/orangeduck/mpc">parser</a> and
+creating <a href"https://github.com/orangeduck/BuildYourOwnLisp">this</a>.
 
-syntax examples:
+
+
+#### language currently is mathematics in polish notation.
+
+Syntax Examples:
 - (+ 1 2) # 1 + 2
 - (+ 1 2 3 4 5) # 1 + 2 + 3 + 4 + 5
 - (+ 1 (- 3 2)) # 1 + (3 - 2)
 
-## installation / run :
+# Installation / Run :
 - require make and C-compiler to be installed
 - if you do not have make run:
   - "cc -std=c99 -Wall prompt.c mpc.c -ledit -lm -o ./build/prompt"
+  - "build/prompt"
 
-# features:
+# Features:
 (currently minimal but it's coming along :))
 - can handle integers and decimals
 - math: +, -, *, /, %, ^ (exponentiations)
@@ -25,8 +34,8 @@ syntax examples:
 - if you would like any features added please let me know
 
 
-# bugs:
+# Bugs:
 - if you encounter any bugs also please let me know
 
-hope you find some value :)
+hope you find some value in this :)
 
