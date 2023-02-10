@@ -87,10 +87,10 @@ void lval_print(lval v) {
   switch (v.val_type) {
     case LVAL_NUM:
       if (v.num_type == LNUM_DOUB) {
-        printf("double: %f", v.num.d);
+        printf("%f", v.num.d);
       }
       else {
-        printf("long: %li", v.num.l);
+        printf("%li", v.num.l);
       }
 
       break;
@@ -242,7 +242,7 @@ int main() {
       Lispi, Expr, Function, Operator, Number);
 
 
-  puts("<Think_of_a_buffer_name_here> Version 0.0.0.0.3");
+  puts("<Think_of_a_buffer_name_here> Version 0.0.0.0.5");
   puts("Press Ctrl+C to Exit\n");
 
   while (1) {
