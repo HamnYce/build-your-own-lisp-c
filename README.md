@@ -21,9 +21,14 @@ Syntax Examples:
 
 # Installation / Run :
 - require make and C-compiler to be installed
-- if you do not have make run:
-  - "cc -std=c99 -Wall prompt.c mpc.c -ledit -lm -o ./build/prompt"
-  - "build/prompt"
+```sh
+make all
+```
+- if you do not have make:
+```sh
+cc -std=c99 -Wall prompt.c mpc.c -ledit -lm -o ./build/prompt
+build/prompt
+```
 
 # Features:
 (currently minimal but it's coming along :))
